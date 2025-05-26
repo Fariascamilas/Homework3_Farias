@@ -1,0 +1,3 @@
+/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles/medicionesExe.dir
+/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles/rebuild_cache.dir

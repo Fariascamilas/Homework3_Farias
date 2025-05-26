@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/medicionesExe.dir/source/MedicionBase.cpp.o CMakeFiles/medicionesExe.dir/source/Posicion.cpp.o CMakeFiles/medicionesExe.dir/source/Presion.cpp.o CMakeFiles/medicionesExe.dir/source/SaveFlightData.cpp.o CMakeFiles/medicionesExe.dir/main/main1.cpp.o -o bin/medicionesExe 
