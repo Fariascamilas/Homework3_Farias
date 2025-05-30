@@ -82,4 +82,6 @@ int main(){
     std::cout<<"Después de la trasferencia: "<<std::endl;
     myFlight.imprimir();
     empty.imprimir();
+
+    return 0;
 }
