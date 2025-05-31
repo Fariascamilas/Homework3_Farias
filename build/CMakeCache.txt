@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Mediciones_de_vuelo
+CMAKE_PROJECT_NAME:STATIC=Homework3
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -216,13 +216,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-Mediciones_de_vuelo_BINARY_DIR:STATIC=/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build
+Homework3_BINARY_DIR:STATIC=/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build
 
 //Value Computed by CMake
-Mediciones_de_vuelo_IS_TOP_LEVEL:STATIC=ON
+Homework3_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Mediciones_de_vuelo_SOURCE_DIR:STATIC=/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias
+Homework3_SOURCE_DIR:STATIC=/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias
 
 
 ########################

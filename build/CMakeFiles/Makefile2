@@ -63,7 +63,9 @@ CMAKE_BINARY_DIR = "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARA
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/medicionesExe.dir/all
+all: CMakeFiles/mediciones.dir/all
+all: CMakeFiles/figuras.dir/all
+all: CMakeFiles/json.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +73,88 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/medicionesExe.dir/clean
+clean: CMakeFiles/mediciones.dir/clean
+clean: CMakeFiles/figuras.dir/clean
+clean: CMakeFiles/json.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/medicionesExe.dir
+# Target rules for target CMakeFiles/mediciones.dir
 
 # All Build rule for target.
-CMakeFiles/medicionesExe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target medicionesExe"
-.PHONY : CMakeFiles/medicionesExe.dir/all
+CMakeFiles/mediciones.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" --progress-num=7,8,9,10,11,12 "Built target mediciones"
+.PHONY : CMakeFiles/mediciones.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/medicionesExe.dir/rule: cmake_check_build_system
+CMakeFiles/mediciones.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/medicionesExe.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mediciones.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 0
-.PHONY : CMakeFiles/medicionesExe.dir/rule
+.PHONY : CMakeFiles/mediciones.dir/rule
 
 # Convenience name for target.
-medicionesExe: CMakeFiles/medicionesExe.dir/rule
-.PHONY : medicionesExe
+mediciones: CMakeFiles/mediciones.dir/rule
+.PHONY : mediciones
 
 # clean rule for target.
-CMakeFiles/medicionesExe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/clean
-.PHONY : CMakeFiles/medicionesExe.dir/clean
+CMakeFiles/mediciones.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/clean
+.PHONY : CMakeFiles/mediciones.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/figuras.dir
+
+# All Build rule for target.
+CMakeFiles/figuras.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" --progress-num=1,2,3,4 "Built target figuras"
+.PHONY : CMakeFiles/figuras.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/figuras.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/figuras.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 0
+.PHONY : CMakeFiles/figuras.dir/rule
+
+# Convenience name for target.
+figuras: CMakeFiles/figuras.dir/rule
+.PHONY : figuras
+
+# clean rule for target.
+CMakeFiles/figuras.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/clean
+.PHONY : CMakeFiles/figuras.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/json.dir
+
+# All Build rule for target.
+CMakeFiles/json.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" --progress-num=5,6 "Built target json"
+.PHONY : CMakeFiles/json.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/json.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/json.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Ulises/Desktop/UdeSA/2do Año - SEMESTRE 1/PARADIGMAS/visual/Homework3/Homework3_Farias/build/CMakeFiles" 0
+.PHONY : CMakeFiles/json.dir/rule
+
+# Convenience name for target.
+json: CMakeFiles/json.dir/rule
+.PHONY : json
+
+# clean rule for target.
+CMakeFiles/json.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/clean
+.PHONY : CMakeFiles/json.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

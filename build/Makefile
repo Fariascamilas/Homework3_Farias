@@ -117,137 +117,259 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named medicionesExe
+# Target rules for targets named mediciones
 
 # Build rule for target.
-medicionesExe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 medicionesExe
-.PHONY : medicionesExe
+mediciones: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mediciones
+.PHONY : mediciones
 
 # fast build rule for target.
-medicionesExe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/build
-.PHONY : medicionesExe/fast
+mediciones/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/build
+.PHONY : mediciones/fast
 
-main/main1.o: main/main1.cpp.o
-.PHONY : main/main1.o
+#=============================================================================
+# Target rules for targets named figuras
 
-# target to build an object file
-main/main1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/main/main1.cpp.o
-.PHONY : main/main1.cpp.o
+# Build rule for target.
+figuras: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 figuras
+.PHONY : figuras
 
-main/main1.i: main/main1.cpp.i
-.PHONY : main/main1.i
+# fast build rule for target.
+figuras/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/build
+.PHONY : figuras/fast
 
-# target to preprocess a source file
-main/main1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/main/main1.cpp.i
-.PHONY : main/main1.cpp.i
+#=============================================================================
+# Target rules for targets named json
 
-main/main1.s: main/main1.cpp.s
-.PHONY : main/main1.s
+# Build rule for target.
+json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 json
+.PHONY : json
 
-# target to generate assembly for a file
-main/main1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/main/main1.cpp.s
-.PHONY : main/main1.cpp.s
+# fast build rule for target.
+json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/build
+.PHONY : json/fast
 
-source/MedicionBase.o: source/MedicionBase.cpp.o
-.PHONY : source/MedicionBase.o
-
-# target to build an object file
-source/MedicionBase.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/MedicionBase.cpp.o
-.PHONY : source/MedicionBase.cpp.o
-
-source/MedicionBase.i: source/MedicionBase.cpp.i
-.PHONY : source/MedicionBase.i
-
-# target to preprocess a source file
-source/MedicionBase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/MedicionBase.cpp.i
-.PHONY : source/MedicionBase.cpp.i
-
-source/MedicionBase.s: source/MedicionBase.cpp.s
-.PHONY : source/MedicionBase.s
-
-# target to generate assembly for a file
-source/MedicionBase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/MedicionBase.cpp.s
-.PHONY : source/MedicionBase.cpp.s
-
-source/Posicion.o: source/Posicion.cpp.o
-.PHONY : source/Posicion.o
+ej1/main1.o: ej1/main1.cpp.o
+.PHONY : ej1/main1.o
 
 # target to build an object file
-source/Posicion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Posicion.cpp.o
-.PHONY : source/Posicion.cpp.o
+ej1/main1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/main1.cpp.o
+.PHONY : ej1/main1.cpp.o
 
-source/Posicion.i: source/Posicion.cpp.i
-.PHONY : source/Posicion.i
+ej1/main1.i: ej1/main1.cpp.i
+.PHONY : ej1/main1.i
 
 # target to preprocess a source file
-source/Posicion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Posicion.cpp.i
-.PHONY : source/Posicion.cpp.i
+ej1/main1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/main1.cpp.i
+.PHONY : ej1/main1.cpp.i
 
-source/Posicion.s: source/Posicion.cpp.s
-.PHONY : source/Posicion.s
+ej1/main1.s: ej1/main1.cpp.s
+.PHONY : ej1/main1.s
 
 # target to generate assembly for a file
-source/Posicion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Posicion.cpp.s
-.PHONY : source/Posicion.cpp.s
+ej1/main1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/main1.cpp.s
+.PHONY : ej1/main1.cpp.s
 
-source/Presion.o: source/Presion.cpp.o
-.PHONY : source/Presion.o
+ej1/source/MedicionBase.o: ej1/source/MedicionBase.cpp.o
+.PHONY : ej1/source/MedicionBase.o
 
 # target to build an object file
-source/Presion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Presion.cpp.o
-.PHONY : source/Presion.cpp.o
+ej1/source/MedicionBase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/MedicionBase.cpp.o
+.PHONY : ej1/source/MedicionBase.cpp.o
 
-source/Presion.i: source/Presion.cpp.i
-.PHONY : source/Presion.i
+ej1/source/MedicionBase.i: ej1/source/MedicionBase.cpp.i
+.PHONY : ej1/source/MedicionBase.i
 
 # target to preprocess a source file
-source/Presion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Presion.cpp.i
-.PHONY : source/Presion.cpp.i
+ej1/source/MedicionBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/MedicionBase.cpp.i
+.PHONY : ej1/source/MedicionBase.cpp.i
 
-source/Presion.s: source/Presion.cpp.s
-.PHONY : source/Presion.s
+ej1/source/MedicionBase.s: ej1/source/MedicionBase.cpp.s
+.PHONY : ej1/source/MedicionBase.s
 
 # target to generate assembly for a file
-source/Presion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/Presion.cpp.s
-.PHONY : source/Presion.cpp.s
+ej1/source/MedicionBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/MedicionBase.cpp.s
+.PHONY : ej1/source/MedicionBase.cpp.s
 
-source/SaveFlightData.o: source/SaveFlightData.cpp.o
-.PHONY : source/SaveFlightData.o
+ej1/source/Posicion.o: ej1/source/Posicion.cpp.o
+.PHONY : ej1/source/Posicion.o
 
 # target to build an object file
-source/SaveFlightData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/SaveFlightData.cpp.o
-.PHONY : source/SaveFlightData.cpp.o
+ej1/source/Posicion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Posicion.cpp.o
+.PHONY : ej1/source/Posicion.cpp.o
 
-source/SaveFlightData.i: source/SaveFlightData.cpp.i
-.PHONY : source/SaveFlightData.i
+ej1/source/Posicion.i: ej1/source/Posicion.cpp.i
+.PHONY : ej1/source/Posicion.i
 
 # target to preprocess a source file
-source/SaveFlightData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/SaveFlightData.cpp.i
-.PHONY : source/SaveFlightData.cpp.i
+ej1/source/Posicion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Posicion.cpp.i
+.PHONY : ej1/source/Posicion.cpp.i
 
-source/SaveFlightData.s: source/SaveFlightData.cpp.s
-.PHONY : source/SaveFlightData.s
+ej1/source/Posicion.s: ej1/source/Posicion.cpp.s
+.PHONY : ej1/source/Posicion.s
 
 # target to generate assembly for a file
-source/SaveFlightData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/medicionesExe.dir/build.make CMakeFiles/medicionesExe.dir/source/SaveFlightData.cpp.s
-.PHONY : source/SaveFlightData.cpp.s
+ej1/source/Posicion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Posicion.cpp.s
+.PHONY : ej1/source/Posicion.cpp.s
+
+ej1/source/Presion.o: ej1/source/Presion.cpp.o
+.PHONY : ej1/source/Presion.o
+
+# target to build an object file
+ej1/source/Presion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Presion.cpp.o
+.PHONY : ej1/source/Presion.cpp.o
+
+ej1/source/Presion.i: ej1/source/Presion.cpp.i
+.PHONY : ej1/source/Presion.i
+
+# target to preprocess a source file
+ej1/source/Presion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Presion.cpp.i
+.PHONY : ej1/source/Presion.cpp.i
+
+ej1/source/Presion.s: ej1/source/Presion.cpp.s
+.PHONY : ej1/source/Presion.s
+
+# target to generate assembly for a file
+ej1/source/Presion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/Presion.cpp.s
+.PHONY : ej1/source/Presion.cpp.s
+
+ej1/source/SaveFlightData.o: ej1/source/SaveFlightData.cpp.o
+.PHONY : ej1/source/SaveFlightData.o
+
+# target to build an object file
+ej1/source/SaveFlightData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/SaveFlightData.cpp.o
+.PHONY : ej1/source/SaveFlightData.cpp.o
+
+ej1/source/SaveFlightData.i: ej1/source/SaveFlightData.cpp.i
+.PHONY : ej1/source/SaveFlightData.i
+
+# target to preprocess a source file
+ej1/source/SaveFlightData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/SaveFlightData.cpp.i
+.PHONY : ej1/source/SaveFlightData.cpp.i
+
+ej1/source/SaveFlightData.s: ej1/source/SaveFlightData.cpp.s
+.PHONY : ej1/source/SaveFlightData.s
+
+# target to generate assembly for a file
+ej1/source/SaveFlightData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mediciones.dir/build.make CMakeFiles/mediciones.dir/ej1/source/SaveFlightData.cpp.s
+.PHONY : ej1/source/SaveFlightData.cpp.s
+
+ej2/main2.o: ej2/main2.cpp.o
+.PHONY : ej2/main2.o
+
+# target to build an object file
+ej2/main2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/main2.cpp.o
+.PHONY : ej2/main2.cpp.o
+
+ej2/main2.i: ej2/main2.cpp.i
+.PHONY : ej2/main2.i
+
+# target to preprocess a source file
+ej2/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/main2.cpp.i
+.PHONY : ej2/main2.cpp.i
+
+ej2/main2.s: ej2/main2.cpp.s
+.PHONY : ej2/main2.s
+
+# target to generate assembly for a file
+ej2/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/main2.cpp.s
+.PHONY : ej2/main2.cpp.s
+
+ej2/source/Figuras.o: ej2/source/Figuras.cpp.o
+.PHONY : ej2/source/Figuras.o
+
+# target to build an object file
+ej2/source/Figuras.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Figuras.cpp.o
+.PHONY : ej2/source/Figuras.cpp.o
+
+ej2/source/Figuras.i: ej2/source/Figuras.cpp.i
+.PHONY : ej2/source/Figuras.i
+
+# target to preprocess a source file
+ej2/source/Figuras.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Figuras.cpp.i
+.PHONY : ej2/source/Figuras.cpp.i
+
+ej2/source/Figuras.s: ej2/source/Figuras.cpp.s
+.PHONY : ej2/source/Figuras.s
+
+# target to generate assembly for a file
+ej2/source/Figuras.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Figuras.cpp.s
+.PHONY : ej2/source/Figuras.cpp.s
+
+ej2/source/Punto.o: ej2/source/Punto.cpp.o
+.PHONY : ej2/source/Punto.o
+
+# target to build an object file
+ej2/source/Punto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Punto.cpp.o
+.PHONY : ej2/source/Punto.cpp.o
+
+ej2/source/Punto.i: ej2/source/Punto.cpp.i
+.PHONY : ej2/source/Punto.i
+
+# target to preprocess a source file
+ej2/source/Punto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Punto.cpp.i
+.PHONY : ej2/source/Punto.cpp.i
+
+ej2/source/Punto.s: ej2/source/Punto.cpp.s
+.PHONY : ej2/source/Punto.s
+
+# target to generate assembly for a file
+ej2/source/Punto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/figuras.dir/build.make CMakeFiles/figuras.dir/ej2/source/Punto.cpp.s
+.PHONY : ej2/source/Punto.cpp.s
+
+ej3/main3.o: ej3/main3.cpp.o
+.PHONY : ej3/main3.o
+
+# target to build an object file
+ej3/main3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/ej3/main3.cpp.o
+.PHONY : ej3/main3.cpp.o
+
+ej3/main3.i: ej3/main3.cpp.i
+.PHONY : ej3/main3.i
+
+# target to preprocess a source file
+ej3/main3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/ej3/main3.cpp.i
+.PHONY : ej3/main3.cpp.i
+
+ej3/main3.s: ej3/main3.cpp.s
+.PHONY : ej3/main3.s
+
+# target to generate assembly for a file
+ej3/main3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/json.dir/build.make CMakeFiles/json.dir/ej3/main3.cpp.s
+.PHONY : ej3/main3.cpp.s
 
 # Help Target
 help:
@@ -257,22 +379,36 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... medicionesExe"
-	@echo "... main/main1.o"
-	@echo "... main/main1.i"
-	@echo "... main/main1.s"
-	@echo "... source/MedicionBase.o"
-	@echo "... source/MedicionBase.i"
-	@echo "... source/MedicionBase.s"
-	@echo "... source/Posicion.o"
-	@echo "... source/Posicion.i"
-	@echo "... source/Posicion.s"
-	@echo "... source/Presion.o"
-	@echo "... source/Presion.i"
-	@echo "... source/Presion.s"
-	@echo "... source/SaveFlightData.o"
-	@echo "... source/SaveFlightData.i"
-	@echo "... source/SaveFlightData.s"
+	@echo "... figuras"
+	@echo "... json"
+	@echo "... mediciones"
+	@echo "... ej1/main1.o"
+	@echo "... ej1/main1.i"
+	@echo "... ej1/main1.s"
+	@echo "... ej1/source/MedicionBase.o"
+	@echo "... ej1/source/MedicionBase.i"
+	@echo "... ej1/source/MedicionBase.s"
+	@echo "... ej1/source/Posicion.o"
+	@echo "... ej1/source/Posicion.i"
+	@echo "... ej1/source/Posicion.s"
+	@echo "... ej1/source/Presion.o"
+	@echo "... ej1/source/Presion.i"
+	@echo "... ej1/source/Presion.s"
+	@echo "... ej1/source/SaveFlightData.o"
+	@echo "... ej1/source/SaveFlightData.i"
+	@echo "... ej1/source/SaveFlightData.s"
+	@echo "... ej2/main2.o"
+	@echo "... ej2/main2.i"
+	@echo "... ej2/main2.s"
+	@echo "... ej2/source/Figuras.o"
+	@echo "... ej2/source/Figuras.i"
+	@echo "... ej2/source/Figuras.s"
+	@echo "... ej2/source/Punto.o"
+	@echo "... ej2/source/Punto.i"
+	@echo "... ej2/source/Punto.s"
+	@echo "... ej3/main3.o"
+	@echo "... ej3/main3.i"
+	@echo "... ej3/main3.s"
 .PHONY : help
 
 
