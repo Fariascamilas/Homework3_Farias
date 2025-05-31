@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/figuras.dir/ej2/source/Figuras.cpp.o CMakeFiles/figuras.dir/ej2/source/Punto.cpp.o CMakeFiles/figuras.dir/ej2/main2.cpp.o -o figuras 
