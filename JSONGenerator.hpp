@@ -4,74 +4,52 @@
 #include <string>
 #include <type_traits>
 #include <fstream>
+#include <concepts>
+template <typename T>
+concept ValidParam = std::is_same_v<T,std::string> || std::is_same_v<T,std::pair<int,int>> || std::is_same_v<T,double>;
 
+template<ValidParam T>
 class VectorGenerator{
+private:
+    std::vector<T> data;
 public:
-    std::vector<double> dVec;
-    std::vector<std::string> sVec;
-    std::vector<std::pair<int,int>> iMat;
     VectorGenerator(){}
-
-    template<typename T>
-    void processData(T param){
+    void addData(T param){
         if constexpr(std::is_same_v<T,double>){
-            dVec.insert(param);
+            data.insert(std::to_string(param));
         }
         else if constexpr(std::is_same_v<T,std::string>){
-            sVec.insert(param);
+            data.insert(param);
         }
         else if constexpr(std::is_same_v<T,std::pair<int,int>>){
-            iMat.insert(param);
+            std::string str = "[" + std::to_string(param.first) + ", " + std::to_string(param.second) + "]";
+            data.insert(str);
+        }
+    }
+    std::vector<std::string> getData() const{
+        return data;
+    }
+    std::string processData() const{
+        std::string str = "[";
+        if constexpr(std::is_same_v<T,std::string>){
+            for(auto val : data){
+                if(str == data.back()){
+                    str += val + "]";
+                }
+                else{
+                    str += val + ", ";
+                }
+            }
         }
     }
 };
-/*
-template<typename T>
-class VectorGenerator{
-public:
-    std::vector<T> data;
-    void processData(T param){
-        if constexpr(std::is_same_v<T,double>){
 
-        }
-    }
-};
-*/
+/*
 class TagGenerator{
 public:
     std::vector<std::pair<std::string,std::string>> JSON;
     void addTags(VectorGenerator data){
-        std::string palabras = "[";
-        std::string doubles = "[";
-        std::string matriz = "[";
-        for(auto d : data.dVec){
-            if(d == data.dVec.back()){
-                doubles += std::to_string(d) + "]";
-            }
-            else{
-                doubles += std::to_string(d) + ", ";
-            }
-        }
-        for(auto s : data.sVec){
-            if(s == data.sVec.back()){
-                palabras += s + "]";
-            }
-            else{
-                palabras += s + ", ";
-            }
-        }
-        for(auto l : data.iMat){
-            std::string intList = "[" + std::to_string(l.first) + ", " + std::to_string(l.second) + "]"; 
-            if(l == data.iMat.back()){
-                matriz += intList + "]";
-            }
-            else{
-                matriz += intList + ", ";
-            }
-        }
-        JSON.push_back({"vec_doubles",doubles});
-        JSON.push_back({"palabras",palabras});
-        JSON.push_back({"listas",matriz});
+
     }
     void createJSON(){
         std::string json = "{\n";
@@ -90,4 +68,4 @@ public:
         outf<<json;
         outf.close();
     }
-};
+}; */
